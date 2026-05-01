@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data — never commit raw AMI data
+data/
+!data/.gitkeep
+
+# Results
+results/figures/*.png
+results/figures/*.jpg
+!results/figures/.gitkeep
+
+# Excel outputs from outlier detection
+*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
